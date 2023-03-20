@@ -23,6 +23,7 @@ int main(void)
 		}
 	}
 	for (n = '0'; n <= '9'; ++n)
+	{
 			for (n = '0'; n <= '9'; n++)
 			{
 				if ((alp < n && alp < m) && (m < n))
@@ -39,7 +40,6 @@ int main(void)
 					}
 				}
 			}
-		}
 	}
 	return (0);
 }
